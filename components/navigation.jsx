@@ -14,10 +14,10 @@ export default function Navigation(){
     }
 
     return(
-        <div className=" fixed w-full h-20 shadow-xl z-[100] bg-slate-200">
+        <div className=" fixed w-full h-20 shadow-xl z-[100] bg-stone-200">
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <h2 className="text-[#5651e5]">
-                    <span className="text-slate-600">O</span>DX
+                <h2 className="text-[#65a30d]">
+                    <span className="text-slate-600">P</span>lantar
                 </h2>
                 <div>
                     <ul className="hidden md:flex">

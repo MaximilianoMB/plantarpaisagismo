@@ -48,7 +48,7 @@ export default function Contato(){
                     <div className="col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-4 h-full text-center">
                             <div>
-                                <Image className="rounded-xl" src="/favicon.ico" width="160px" height="169px" alt="/" />
+                                {/* <Image className="rounded-xl" src="/favicon.ico" width="160px" height="169px" alt="/" /> */}
                             </div>
                             <div>
                                 <h2 className="py-2">
