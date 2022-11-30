@@ -19,7 +19,7 @@ export default function Services(){
     return(
         <div id="time" className="w-full md:h-screen light-screen p-2">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">               
-                <p className="mt-5 text-xl tracking-widest uppercase text-[#5651e5]">Equipe</p>
+                <p className="mt-5 text-xl tracking-widest uppercase text-[#65a30d]">Plantas</p>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
@@ -28,23 +28,22 @@ export default function Services(){
                                 {/* <Image src="/equipe/1.jpg" alt="/" width="150px" height="150px"/> */}
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3 className="text-2xl pb-2">Wagner Vargas</h3>
-                                <p className="text-center">Cientista de Dados Especialista em Políticas Publicas</p>
+                                <h3 className="text-2xl pb-2">A vida é mais bonita</h3>
+                                <p className="text-center">Com Paisagismo</p>
                             </div>
                         </div>
-                        <div onClick={handleNavWag} className="mx-[25%] mt-4 flex  items-center justify-center rounded-full bg-slate-300 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                            <MdOutlineUnfoldMore className="ml-3 text-[#5651e5]" size={30} />
-                            Curriculum
+                        <div onClick={handleNavWag} className="mx-[25%] mt-4 flex  items-center justify-center rounded-full bg-stone-300 shadow-lg shadow-lime-800 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                            <MdOutlineUnfoldMore className="ml-3 text-[#65a30d]" size={30} />
+                            Saber Mais
                         </div>
                         <div className={navWag ? "col-span-2 mt-10" : "hidden"}>
                             <p 
                             className="m-4 "
                             >
-                            Bacharelando em Estatística (Anhembi Morumbi, 2020-2023) e Bacharel em Comunicação Social (Anhembi Morumbi, 2009-2012),
-                            é Mestre em Gestão e Políticas Públicas (FGV, 2016-2018) e pós-graduado pelo Programa Avançado de Data Science e Decisão (Insper, 2019-2021); com MBA em Finanças Públicas (Cândido Mendes, 2017-2019) e tem especialização em Estatística Aplicada (IBMEC, 2017) e em Marketing CRM (IBMEC, 2016).
+                            Phoenix Canariensis é muito usada
                             </p>
                             <p className="m-4">
-                                Consultor, tem experiência em projetos de Ciência de Dados voltados para Políticas Públicas, Marketing Analítico e Comunicação Estratégica para os setores público, privado. Programa em R e em Python.
+                                Diversas composições e benefícios
                             </p>
                         </div>
                     </div>
@@ -55,22 +54,21 @@ export default function Services(){
                                 {/* <Image src="/equipe/2.jpg" alt="/" width="150px" height="150px"/> */}
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3 className="text-2xl pb-2">Felício Visnardi</h3>
-                                <p>Economista e Cientista de Dados</p>
+                                <h3 className="text-2xl pb-2">Paisagismo</h3>
+                                <p>Eleva o valor do imóvel</p>
                             </div>
                         </div>
-                        <div onClick={handleNavFel} className="mx-[25%] mt-4 flex items-center justify-center rounded-full bg-slate-300 shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                            <MdOutlineUnfoldMore className="ml-3 text-[#5651e5]" size={30} />
-                            Curriculum
+                        <div onClick={handleNavFel} className="mx-[25%] mt-4 flex items-center justify-center rounded-full bg-stone-300 shadow-lg shadow-lime-800 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                            <MdOutlineUnfoldMore className="ml-3 text-[#65a30d]" size={30} />
+                            Mais Curiosidades
                         </div>
                         <div className={navFel ? "col-span-2 mt-10" : "hidden"}>
                             <p 
                             className="m-4"
                             >
-                            Graduado em Economia Empresarial e Controladoria pela FEARP-USP e pós-graduado pelo Programa Avançado de Data Science e Decisão pelo Insper.
-                             Possui conhecimentos avançados em diversas linguagens de programação computacional, dentre elas Python, VBA, R, SQL e conhecimento intermediário em Javascript.
+                            Grama São Carlos é boa na sombra.
                             </p>
-                            <p className="m-4">Além de experiência em projetos de contabilidade e automação, também possui conhecimentos do ecossistema de engenharia de dados e Big Data Analitycs.
+                            <p className="m-4">Gramado ajuda o sistema imonológico.
                             </p>
                         </div>
                     </div>

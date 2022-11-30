@@ -8,12 +8,12 @@ export default function Cover(){
                 <div> 
                         {/* <Image src="/favicon.ico" alt="/" width="160" height="169" /> */}
                     <p className="uppercase tracking-widest text-gray-600 pb-12">
-                        Octahedron Data Experts
+                        Plantar Paisagismo
                     </p>
-                    <h1 className="py-2 text-gray-700">Soluções B2B em <span className="text-[#65a30d]">Data Science</span></h1>
+                    <h1 className="py-2 text-gray-700">Soluções em <span className="text-[#65a30d]">Paisagismo</span></h1>
                     <p className="py-2 text-gray-600 max-w-[70%] m-auto">
-                        Data is the new oil!
-                        Nosso time de especialistas desenvolve <i>soluções de dados</i> para que você tome as <i>melhores decisões</i>.
+                        A vida é mais bonita com paisagismo.
+                        Eleve o <i>valor do seu imóvel</i> com um projeto de  <i>paisagismo</i>.
                     </p>
                     
                 </div>
